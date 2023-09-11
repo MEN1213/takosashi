@@ -12,6 +12,7 @@ public class Gaoal : MonoBehaviour
         if(collision.gameObject.tag =="Player" )
         {
             Debug.Log("ÉSÅ[Éã");
+            SceneManager.LoadScene("Reselt");
         }
     }
 }
